@@ -1,0 +1,39 @@
+Today, our team of data analysts, scientists, engineers, and strategists come together from diverse backgrounds to share a passion for using data to solve the world’s greatest social and analytical challenges. We’ve served more than 400 organizations ranging from government agencies, advocacy groups, unions, political campaigns, international groups, and companies. Along the way, we’ve developed some of the most innovative tools available in analytics, media optimization, reporting, and influencer outreach-- serving a diverse set of industries, including the automotive, travel, consumer packaged goods, entertainment, healthcare, media, telecom, and more.
+
+About the team:
+
+The BlueLabs Government Analytics practice revolutionizes the way government agencies use data to streamline operations, interact with citizens, and react to their biggest challenges. Our team develops deep expertise within the areas our clients care about most, then builds data analytics systems that create impact at scale. We work closely with internal government innovation groups, and build on the analytics methodology pioneered in e-commerce, advocacy, politics, and consumer finance.
+
+You will work on a fast-paced, impact-driven project team charged with intelligently improving the operations powering the policies and programs that hundreds of millions of Americans interact with on a daily basis. Our work builds the frameworks and infrastructure that allows agencies to deal with big public health challenges. We bring definition to challenging problems, creatively identify data sources, then design analytics that accurately measure impact and move the needle every day. We work in changing, ambiguous environments, so we embrace nuance, inclusivity, and complexity to deliver programs that work for the diverse groups of individuals who rely on us.
+
+
+About the role:
+
+As a Business Analyst on our Civic Tech team, you will contribute your technical expertise to our government client programs. You will work closely with a team of analysts, engineers, and program leads to develop business intelligence recommendations. You will evaluate data to present recommended changes to a user-facing tool stakeholders use to support their mission-critical programs. This position reports to the Program Manager.
+
+
+In this position you will:
+
+Develop and conduct exploratory analysis of existing business processes for an end-user support office with a federal government client
+Deliver and present recommendations to improve or design new business processes based on client stakeholder needs, keeping in mind concepts of human-centered design
+Develop and implement reporting on key performance indicators and success metrics using ServiceNow software
+Collaborate with developers to design and test user interface changes and reporting requirements
+Perform such other reasonable tasks as may be assigned by management.
+
+What we are seeking:
+
+Experience translating business requirements into technical requirements for designers and developers
+Experience facilitating requirements gathering sessions with client stakeholders of varying job functions, years of service, and technical background
+Developed solutions in collaboration with input from both an internal team and key client stakeholders
+Experience navigating a suite of data tables as part of an enterprise
+SQL coding experience to report on user or customer interactions
+Ability to problem solve, identify risks, and present recommendations to clients
+Effective communication and presentation skills with peers, clients, and stakeholders
+Strong intuition for a desirable user experience as a customer and task fulfiller
+Passion for social impact in a data and technology space for federal government clients
+In order to be qualified for this position you must currently have or be able to obtain and maintain a Federal Public Trust security clearance, which includes a requirement to have either US Citizenship or three (3) of five (5) years of US residency
+
+You may also have:
+
+Worked with ServiceNow software or similar customer service style platform
+R and/or Python programming experience

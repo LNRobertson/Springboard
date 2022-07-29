@@ -1,0 +1,38 @@
+PlayStation isn’t just the Best Place to Play — it’s also the Best Place to Work. Today, we’re recognized as a global leader in entertainment producing The PlayStation family of products and services including PlayStation®5, PlayStation®4, PlayStation®VR, PlayStation®Plus, PlayStation™Now, acclaimed PlayStation software titles from PlayStation Studios, and more.
+
+PlayStation also strives to create an inclusive environment that empowers employees and embraces diversity. We welcome and encourage everyone who has a passion and curiosity for innovation, technology, and play to explore our open positions and join our growing global team.
+
+The PlayStation brand falls under Sony Interactive Entertainment, a wholly-owned subsidiary of Sony Corporation.
+
+The Direct to Consumer (D2C) team are part of a vibrant organization that manage the digital store for PlayStation. D2C brings together staff from around the world, with a passion for engaging PlayStation gamers with relevant and entertaining content. This area of Sony Interactive Entertainment has seen significant growth in recent years to become a key revenue contributor and continues to evolve with the industry to build new business opportunities. As the central analytics organization within D2C, the Insights and Modelling team supports the commercial operations for D2C based on insights, modelling, and storytelling. The team empowers the business with robust data analytics to effectively meet and exceed their commercial objectives. We are looking for individuals who are motivated by working across a distributed team, working together at the forefront of digital content distribution.
+
+Reporting to the Manager, Data Science, the Data Scientist will be responsible for leading advanced analytics and modelling initiatives to support the strategic direction of the D2C team. The Data Scientist will focus on designing and executing statistical models to deliver insights and recommendations to expand business opportunities!
+
+The candidate is a hardworking and flexible teammate with a proven technical skillset, is an excellent communicator, and thrives in a fast-paced environment.
+
+What you'll be doing:
+Work cross-functionally to define problem statements, collect data, and apply statistics to sophisticated business problems
+Develop custom models; be a self-starter passionate about finding the best solution to the problem!
+Optimize models and algorithms to identify insights that are used to drive decision-making across the organization
+Use quantitative analysis and the presentation of data to see beyond the numbers and understand what drives our business
+Wrangle constantly evolving, large, and complex data on users and content using tools such as SQL and Python
+Routinely connect with partners and leadership on modelling projects; present in a cohesive, logical, and proficient way from the original business question to a strategy recommendation
+Collaborate closely with business teams within D2C to identify and evaluate opportunity areas for advanced analytics initiatives
+Collaborate with other Data Scientists and analytics teams in the wider organization
+
+What we're looking for:
+2+ years’ experience in a commercially focused analytical role, preferably in the digital retail and/or digital entertainment industry
+Bachelor’s Degree in a relevant technical or mathematical field
+Solid theoretical and practical understanding of Statistics (e.g. hypothesis testing, experimentation, causal inference, classification and regression)
+Proficiency in SQL and Python
+Strong verbal, written, and interpersonal communication skills with the ability to articulate ideas and present complex analyses to non-technical audiences
+
+Preferred Qualities:
+Ability to take ambiguous problems and tackle them in a data-supported way
+Proven track record of using data to drive business decisions with strong analytical skills including the ability to structure problems for analysis, analyze the data, and provide meaningful recommendations
+Can work collaboratively across functions
+Ability to self-manage and balance projects and priorities
+Ability to initiate and drive projects to completion with minimal guidance
+Familiarity with the AWS ecosystem and Docker
+Experience with visualization tools: Tableau, MicroStrategy
+As the role is global, international travel may be required as well as a flexible approach to working hours to support global business operations

@@ -1,0 +1,24 @@
+We are looking for a business-savvy data analyst with great product intuition to join our team! This role will help us make key strategic decisions to grow our weekly active user base from tens of thousands to millions over the next five years.
+
+As one of the founding members of the data team, you'll partner with our Product, Operations, and Marketing teams to define metrics and conduct deeper analyses to help us make more informed decisions about our business. You'll also work closely with our Chief Data Scientist to deepen your understanding of machine learning and build data tools for the rest of the company.
+
+You will be collaborating closely with product managers, marketing leads, and executive leadership to build impactful products that delight our users. You thrive in a fast-paced environment, are a self-starter, and are motivated by the opportunity to solve thorny data problems with lots of ambiguity. You possess a passion to solve problems, an ability to think creatively outside of the box, and a passion for working with a diverse group of people from around the world.
+
+Major Responsibilities:
+Define key metrics for new initiatives, like new product launches and marketing campaigns
+Build and analyze dashboards and reports to help us understand how product features and marketing campaigns are performing
+Monitor key metrics and investigate root causes of changes in metrics
+Partner with Product and Engineering to design and evaluate A/B tests
+Find actionable insights through funnels, cohort analyses, user segmentation, retention analyses and models to help us improve our product
+Collaborate with key stakeholders, including the Executive Team, to validate major strategic bets
+Partner with engineers and data scientists on common areas of scalability, data quality management, data delivery management and performance optimization
+Propose what to build in the future product roadmap, understand user behaviors and long-term trends, identify new levers to help move key user metrics
+
+Qualifications:
+3+ years of data analyst experience at a consumer tech company, ideally with at least 1 year at a startup
+Strong quantitative modeling, statistical analysis and problem-solving skills
+Deep experience with SQL, bonus points if you're also comfortable with R, Python and data science libraries
+Excellent business acumen and product intuition
+Great verbal, visual, and written communication skills, especially in communicating data findings using the right visualizations
+Ability to work effectively with product, marketing, and engineering teams in a cross-cultural and cross-functional environment
+Deep, intrinsic desire to excel and grow

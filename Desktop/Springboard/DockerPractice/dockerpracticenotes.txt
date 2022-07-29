@@ -1,0 +1,1075 @@
+Docker notes: docker ___ --help
+
+Images are files - Containers uses copies of images. 
+
+Docker images - linux OS and with python latest version: 
+Create image for python script:
+    docker pull python:latest
+
+Image pulls come from Docker Hub. 
+Images don't do anything without running a container.
+
+Need a container to access images
+	docker run python
+	docker ps
+	docker run -d python (container ID runs in the background)
+	docker run -it python (keeps it open and runs it on psudo terminal
+	docker ps -all
+
+python: import this
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Lindsey> cd Desktop
+PS C:\Users\Lindsey\Desktop> cd Springboard
+PS C:\Users\Lindsey\Desktop\Springboard> mkdir DockerPractice
+
+
+    Directory: C:\Users\Lindsey\Desktop\Springboard
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         6/25/2022  10:01 AM                DockerPractice
+
+
+PS C:\Users\Lindsey\Desktop\Springboard>
+PS C:\Users\Lindsey\Desktop\Springboard> cd DockerPractice
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE                    COMMAND                  CREATED        STATUS        PORTS                NAMES
+14be388f716f   docker/getting-started   "/docker-entrypoint.…"   40 hours ago   Up 40 hours   0.0.0.0:80->80/tcp   gracious_kirch
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker images
+REPOSITORY               TAG       IMAGE ID       CREATED        SIZE
+docker/getting-started   latest    cb90f98fd791   2 months ago   28.8MB
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker build python: latest
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker build --help
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+
+Options:
+      --add-host list           Add a custom host-to-IP mapping (host:ip)
+      --build-arg list          Set build-time variables
+      --cache-from strings      Images to consider as cache sources
+      --disable-content-trust   Skip image verification (default true)
+  -f, --file string             Name of the Dockerfile (Default is
+                                'PATH/Dockerfile')
+      --iidfile string          Write the image ID to the file
+      --isolation string        Container isolation technology
+      --label list              Set metadata for an image
+      --network string          Set the networking mode for the RUN
+                                instructions during build (default "default")
+      --no-cache                Do not use cache when building the image
+  -o, --output stringArray      Output destination (format:
+                                type=local,dest=path)
+      --platform string         Set platform if server is multi-platform
+                                capable
+      --progress string         Set type of progress output (auto, plain,
+                                tty). Use plain to show container output
+                                (default "auto")
+      --pull                    Always attempt to pull a newer version of
+                                the image
+  -q, --quiet                   Suppress the build output and print image
+                                ID on success
+      --secret stringArray      Secret file to expose to the build (only
+                                if BuildKit enabled):
+                                id=mysecret,src=/local/secret
+      --ssh stringArray         SSH agent socket or keys to expose to the
+                                build (only if BuildKit enabled) (format:
+                                default|<id>[=<socket>|<key>[,<key>]])
+  -t, --tag list                Name and optionally a tag in the
+                                'name:tag' format
+      --target string           Set the target build stage to build.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker pull python: latest
+"docker pull" requires exactly 1 argument.
+See 'docker pull --help'.
+
+Usage:  docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+
+Pull an image or a repository from a registry
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker pull python: latest
+"docker pull" requires exactly 1 argument.
+See 'docker pull --help'.
+
+Usage:  docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+
+Pull an image or a repository from a registry
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker pull python:latest
+latest: Pulling from library/python
+1339eaac5b67: Pull complete
+4c78fa1b9799: Pull complete
+14f0d2bd5243: Pull complete
+76e5964a957d: Pull complete
+cc4bb1a04a94: Pull complete
+3dee34a94cb0: Pull complete
+72ee0a082e68: Pull complete
+fd1da769482d: Pull complete
+a27ec1e00a3e: Pull complete
+Digest: sha256:eeed7cac682f9274d183f8a7533ee1360a26acb3616aa712b2be7896f80d8c5f
+Status: Downloaded newer image for python:latest
+docker.io/library/python:latest
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker images
+REPOSITORY               TAG       IMAGE ID       CREATED        SIZE
+python                   latest    0f95b1e38607   2 days ago     920MB
+docker/getting-started   latest    cb90f98fd791   2 months ago   28.8MB
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run python
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE                    COMMAND                  CREATED        STATUS        PORTS                NAMES
+14be388f716f   docker/getting-started   "/docker-entrypoint.…"   41 hours ago   Up 41 hours   0.0.0.0:80->80/tcp   gracious_kirch
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker kill docker/getting-started
+Error response from daemon: Cannot kill container: docker/getting-started: No such container: docker/getting-started
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice>  docker kill 14be388f716f
+14be388f716f
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run --help
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+
+Options:
+      --add-host list                  Add a custom host-to-IP mapping
+                                       (host:ip)
+  -a, --attach list                    Attach to STDIN, STDOUT or STDERR
+      --blkio-weight uint16            Block IO (relative weight),
+                                       between 10 and 1000, or 0 to
+                                       disable (default 0)
+      --blkio-weight-device list       Block IO weight (relative device
+                                       weight) (default [])
+      --cap-add list                   Add Linux capabilities
+      --cap-drop list                  Drop Linux capabilities
+      --cgroup-parent string           Optional parent cgroup for the
+                                       container
+      --cgroupns string                Cgroup namespace to use
+                                       (host|private)
+                                       'host':    Run the container in
+                                       the Docker host's cgroup namespace
+                                       'private': Run the container in
+                                       its own private cgroup namespace
+                                       '':        Use the cgroup
+                                       namespace as configured by the
+                                                  default-cgroupns-mode
+                                       option on the daemon (default)
+      --cidfile string                 Write the container ID to the file
+      --cpu-period int                 Limit CPU CFS (Completely Fair
+                                       Scheduler) period
+      --cpu-quota int                  Limit CPU CFS (Completely Fair
+                                       Scheduler) quota
+      --cpu-rt-period int              Limit CPU real-time period in
+                                       microseconds
+      --cpu-rt-runtime int             Limit CPU real-time runtime in
+                                       microseconds
+  -c, --cpu-shares int                 CPU shares (relative weight)
+      --cpus decimal                   Number of CPUs
+      --cpuset-cpus string             CPUs in which to allow execution
+                                       (0-3, 0,1)
+      --cpuset-mems string             MEMs in which to allow execution
+                                       (0-3, 0,1)
+  -d, --detach                         Run container in background and
+                                       print container ID
+      --detach-keys string             Override the key sequence for
+                                       detaching a container
+      --device list                    Add a host device to the container
+      --device-cgroup-rule list        Add a rule to the cgroup allowed
+                                       devices list
+      --device-read-bps list           Limit read rate (bytes per second)
+                                       from a device (default [])
+      --device-read-iops list          Limit read rate (IO per second)
+                                       from a device (default [])
+      --device-write-bps list          Limit write rate (bytes per
+                                       second) to a device (default [])
+      --device-write-iops list         Limit write rate (IO per second)
+                                       to a device (default [])
+      --disable-content-trust          Skip image verification (default true)
+      --dns list                       Set custom DNS servers
+      --dns-option list                Set DNS options
+      --dns-search list                Set custom DNS search domains
+      --domainname string              Container NIS domain name
+      --entrypoint string              Overwrite the default ENTRYPOINT
+                                       of the image
+  -e, --env list                       Set environment variables
+      --env-file list                  Read in a file of environment variables
+      --expose list                    Expose a port or a range of ports
+      --gpus gpu-request               GPU devices to add to the
+                                       container ('all' to pass all GPUs)
+      --group-add list                 Add additional groups to join
+      --health-cmd string              Command to run to check health
+      --health-interval duration       Time between running the check
+                                       (ms|s|m|h) (default 0s)
+      --health-retries int             Consecutive failures needed to
+                                       report unhealthy
+      --health-start-period duration   Start period for the container to
+                                       initialize before starting
+                                       health-retries countdown
+                                       (ms|s|m|h) (default 0s)
+      --health-timeout duration        Maximum time to allow one check to
+                                       run (ms|s|m|h) (default 0s)
+      --help                           Print usage
+  -h, --hostname string                Container host name
+      --init                           Run an init inside the container
+                                       that forwards signals and reaps
+                                       processes
+  -i, --interactive                    Keep STDIN open even if not attached
+      --ip string                      IPv4 address (e.g., 172.30.100.104)
+      --ip6 string                     IPv6 address (e.g., 2001:db8::33)
+      --ipc string                     IPC mode to use
+      --isolation string               Container isolation technology
+      --kernel-memory bytes            Kernel memory limit
+  -l, --label list                     Set meta data on a container
+      --label-file list                Read in a line delimited file of labels
+      --link list                      Add link to another container
+      --link-local-ip list             Container IPv4/IPv6 link-local
+                                       addresses
+      --log-driver string              Logging driver for the container
+      --log-opt list                   Log driver options
+      --mac-address string             Container MAC address (e.g.,
+                                       92:d0:c6:0a:29:33)
+  -m, --memory bytes                   Memory limit
+      --memory-reservation bytes       Memory soft limit
+      --memory-swap bytes              Swap limit equal to memory plus
+                                       swap: '-1' to enable unlimited swap
+      --memory-swappiness int          Tune container memory swappiness
+                                       (0 to 100) (default -1)
+      --mount mount                    Attach a filesystem mount to the
+                                       container
+      --name string                    Assign a name to the container
+      --network network                Connect a container to a network
+      --network-alias list             Add network-scoped alias for the
+                                       container
+      --no-healthcheck                 Disable any container-specified
+                                       HEALTHCHECK
+      --oom-kill-disable               Disable OOM Killer
+      --oom-score-adj int              Tune host's OOM preferences (-1000
+                                       to 1000)
+      --pid string                     PID namespace to use
+      --pids-limit int                 Tune container pids limit (set -1
+                                       for unlimited)
+      --platform string                Set platform if server is
+                                       multi-platform capable
+      --privileged                     Give extended privileges to this
+                                       container
+  -p, --publish list                   Publish a container's port(s) to
+                                       the host
+  -P, --publish-all                    Publish all exposed ports to
+                                       random ports
+      --pull string                    Pull image before running
+                                       ("always"|"missing"|"never")
+                                       (default "missing")
+      --read-only                      Mount the container's root
+                                       filesystem as read only
+      --restart string                 Restart policy to apply when a
+                                       container exits (default "no")
+      --rm                             Automatically remove the container
+                                       when it exits
+      --runtime string                 Runtime to use for this container
+      --security-opt list              Security Options
+      --shm-size bytes                 Size of /dev/shm
+      --sig-proxy                      Proxy received signals to the
+                                       process (default true)
+      --stop-signal string             Signal to stop a container
+                                       (default "15")
+      --stop-timeout int               Timeout (in seconds) to stop a
+                                       container
+      --storage-opt list               Storage driver options for the
+                                       container
+      --sysctl map                     Sysctl options (default map[])
+      --tmpfs list                     Mount a tmpfs directory
+  -t, --tty                            Allocate a pseudo-TTY
+      --ulimit ulimit                  Ulimit options (default [])
+  -u, --user string                    Username or UID (format:
+                                       <name|uid>[:<group|gid>])
+      --userns string                  User namespace to use
+      --uts string                     UTS namespace to use
+  -v, --volume list                    Bind mount a volume
+      --volume-driver string           Optional volume driver for the
+                                       container
+      --volumes-from list              Mount volumes from the specified
+                                       container(s)
+  -w, --workdir string                 Working directory inside the container
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -d
+"docker run" requires at least 1 argument.
+See 'docker run --help'.
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -d python
+4c5476a6e11e0d78d8402d4e5855f65a25f7d183103a4b9f4ce751e187c853d4
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps --hlep
+unknown flag: --hlep
+See 'docker ps --help'.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps -a
+CONTAINER ID   IMAGE                    COMMAND                  CREATED         STATUS                       PORTS     NAMES
+4c5476a6e11e   python                   "python3"                3 minutes ago   Exited (0) 3 minutes ago               frosty_bardeen
+fc8ff71868da   python                   "python3"                7 minutes ago   Exited (0) 7 minutes ago               vigilant_kepler
+14be388f716f   docker/getting-started   "/docker-entrypoint.…"   41 hours ago    Exited (137) 6 minutes ago             gracious_kirch
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -it
+"docker run" requires at least 1 argument.
+See 'docker run --help'.
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -it python
+Python 3.10.5 (main, Jun 23 2022, 10:42:52) [GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello")
+Hello
+>>> import pandas as pd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pandas'
+>>> import random
+>>> import time
+>>> time.sleep(5)
+>>> import datetime
+>>> datetime.now
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'datetime' has no attribute 'now'
+>>> datetime now
+  File "<stdin>", line 1
+    datetime now
+             ^^^
+SyntaxError: invalid syntax
+>>> from datetime import datetime.now
+  File "<stdin>", line 1
+    from datetime import datetime.now
+                                 ^
+SyntaxError: invalid syntax
+>>> from datetime import datetime
+>>> datetime.now
+<built-in method now of type object at 0x7f54b6004d20>
+>>> datetime.now()
+datetime.datetime(2022, 6, 25, 17, 39, 27, 897890)
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>>
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps -all
+CONTAINER ID   IMAGE     COMMAND     CREATED         STATUS                      PORTS     NAMESb2a8e19b21b6   python    "python3"   7 minutes ago   Exited (0) 15 seconds ago             gracious_hugle
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run b2a8e19b21b6 -it
+Unable to find image 'b2a8e19b21b6:latest' locally
+docker: Error response from daemon: pull access denied for b2a8e19b21b6, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run --help
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+
+Options:
+      --add-host list                  Add a custom host-to-IP mapping
+                                       (host:ip)
+  -a, --attach list                    Attach to STDIN, STDOUT or STDERR
+      --blkio-weight uint16            Block IO (relative weight),
+                                       between 10 and 1000, or 0 to
+                                       disable (default 0)
+      --blkio-weight-device list       Block IO weight (relative device
+                                       weight) (default [])
+      --cap-add list                   Add Linux capabilities
+      --cap-drop list                  Drop Linux capabilities
+      --cgroup-parent string           Optional parent cgroup for the
+                                       container
+      --cgroupns string                Cgroup namespace to use
+                                       (host|private)
+                                       'host':    Run the container in
+                                       the Docker host's cgroup namespace
+                                       'private': Run the container in
+                                       its own private cgroup namespace
+                                       '':        Use the cgroup
+                                       namespace as configured by the
+                                                  default-cgroupns-mode
+                                       option on the daemon (default)
+      --cidfile string                 Write the container ID to the file
+      --cpu-period int                 Limit CPU CFS (Completely Fair
+                                       Scheduler) period
+      --cpu-quota int                  Limit CPU CFS (Completely Fair
+                                       Scheduler) quota
+      --cpu-rt-period int              Limit CPU real-time period in
+                                       microseconds
+      --cpu-rt-runtime int             Limit CPU real-time runtime in
+                                       microseconds
+  -c, --cpu-shares int                 CPU shares (relative weight)
+      --cpus decimal                   Number of CPUs
+      --cpuset-cpus string             CPUs in which to allow execution
+                                       (0-3, 0,1)
+      --cpuset-mems string             MEMs in which to allow execution
+                                       (0-3, 0,1)
+  -d, --detach                         Run container in background and
+                                       print container ID
+      --detach-keys string             Override the key sequence for
+                                       detaching a container
+      --device list                    Add a host device to the container
+      --device-cgroup-rule list        Add a rule to the cgroup allowed
+                                       devices list
+      --device-read-bps list           Limit read rate (bytes per second)
+                                       from a device (default [])
+      --device-read-iops list          Limit read rate (IO per second)
+                                       from a device (default [])
+      --device-write-bps list          Limit write rate (bytes per
+                                       second) to a device (default [])
+      --device-write-iops list         Limit write rate (IO per second)
+                                       to a device (default [])
+      --disable-content-trust          Skip image verification (default true)
+      --dns list                       Set custom DNS servers
+      --dns-option list                Set DNS options
+      --dns-search list                Set custom DNS search domains
+      --domainname string              Container NIS domain name
+      --entrypoint string              Overwrite the default ENTRYPOINT
+                                       of the image
+  -e, --env list                       Set environment variables
+      --env-file list                  Read in a file of environment variables
+      --expose list                    Expose a port or a range of ports
+      --gpus gpu-request               GPU devices to add to the
+                                       container ('all' to pass all GPUs)
+      --group-add list                 Add additional groups to join
+      --health-cmd string              Command to run to check health
+      --health-interval duration       Time between running the check
+                                       (ms|s|m|h) (default 0s)
+      --health-retries int             Consecutive failures needed to
+                                       report unhealthy
+      --health-start-period duration   Start period for the container to
+                                       initialize before starting
+                                       health-retries countdown
+                                       (ms|s|m|h) (default 0s)
+      --health-timeout duration        Maximum time to allow one check to
+                                       run (ms|s|m|h) (default 0s)
+      --help                           Print usage
+  -h, --hostname string                Container host name
+      --init                           Run an init inside the container
+                                       that forwards signals and reaps
+                                       processes
+  -i, --interactive                    Keep STDIN open even if not attached
+      --ip string                      IPv4 address (e.g., 172.30.100.104)
+      --ip6 string                     IPv6 address (e.g., 2001:db8::33)
+      --ipc string                     IPC mode to use
+      --isolation string               Container isolation technology
+      --kernel-memory bytes            Kernel memory limit
+  -l, --label list                     Set meta data on a container
+      --label-file list                Read in a line delimited file of labels
+      --link list                      Add link to another container
+      --link-local-ip list             Container IPv4/IPv6 link-local
+                                       addresses
+      --log-driver string              Logging driver for the container
+      --log-opt list                   Log driver options
+      --mac-address string             Container MAC address (e.g.,
+                                       92:d0:c6:0a:29:33)
+  -m, --memory bytes                   Memory limit
+      --memory-reservation bytes       Memory soft limit
+      --memory-swap bytes              Swap limit equal to memory plus
+                                       swap: '-1' to enable unlimited swap
+      --memory-swappiness int          Tune container memory swappiness
+                                       (0 to 100) (default -1)
+      --mount mount                    Attach a filesystem mount to the
+                                       container
+      --name string                    Assign a name to the container
+      --network network                Connect a container to a network
+      --network-alias list             Add network-scoped alias for the
+                                       container
+      --no-healthcheck                 Disable any container-specified
+                                       HEALTHCHECK
+      --oom-kill-disable               Disable OOM Killer
+      --oom-score-adj int              Tune host's OOM preferences (-1000
+                                       to 1000)
+      --pid string                     PID namespace to use
+      --pids-limit int                 Tune container pids limit (set -1
+                                       for unlimited)
+      --platform string                Set platform if server is
+                                       multi-platform capable
+      --privileged                     Give extended privileges to this
+                                       container
+  -p, --publish list                   Publish a container's port(s) to
+                                       the host
+  -P, --publish-all                    Publish all exposed ports to
+                                       random ports
+      --pull string                    Pull image before running
+                                       ("always"|"missing"|"never")
+                                       (default "missing")
+      --read-only                      Mount the container's root
+                                       filesystem as read only
+      --restart string                 Restart policy to apply when a
+                                       container exits (default "no")
+      --rm                             Automatically remove the container
+                                       when it exits
+      --runtime string                 Runtime to use for this container
+      --security-opt list              Security Options
+      --shm-size bytes                 Size of /dev/shm
+      --sig-proxy                      Proxy received signals to the
+                                       process (default true)
+      --stop-signal string             Signal to stop a container
+                                       (default "15")
+      --stop-timeout int               Timeout (in seconds) to stop a
+                                       container
+      --storage-opt list               Storage driver options for the
+                                       container
+      --sysctl map                     Sysctl options (default map[])
+      --tmpfs list                     Mount a tmpfs directory
+  -t, --tty                            Allocate a pseudo-TTY
+      --ulimit ulimit                  Ulimit options (default [])
+  -u, --user string                    Username or UID (format:
+                                       <name|uid>[:<group|gid>])
+      --userns string                  User namespace to use
+      --uts string                     UTS namespace to use
+  -v, --volume list                    Bind mount a volume
+      --volume-driver string           Optional volume driver for the
+                                       container
+      --volumes-from list              Mount volumes from the specified
+                                       container(s)
+  -w, --workdir string                 Working directory inside the container
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker start b2a8e19b21b6 -it
+unknown shorthand flag: 't' in -t
+See 'docker start --help'.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker start -i
+"docker start" requires at least 1 argument.
+See 'docker start --help'.
+
+Usage:  docker start [OPTIONS] CONTAINER [CONTAINER...]
+
+Start one or more stopped containers
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker starts -i b2a8e19b21b6
+unknown shorthand flag: 'i' in -i
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Options:
+      --config string      Location of client config files (default
+                           "C:\\Users\\Lindsey\\.docker")
+  -c, --context string     Name of the context to use to connect to the
+                           daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket(s) to connect to
+  -l, --log-level string   Set the logging level
+                           ("debug"|"info"|"warn"|"error"|"fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "C:\\Users\\Lindsey\\.docker\\ca.pem")
+      --tlscert string     Path to TLS certificate file (default
+                           "C:\\Users\\Lindsey\\.docker\\cert.pem")
+      --tlskey string      Path to TLS key file (default
+                           "C:\\Users\\Lindsey\\.docker\\key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.8.2)
+  compose*    Docker Compose (Docker Inc., v2.6.0)
+  config      Manage Docker configs
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  node        Manage Swarm nodes
+  plugin      Manage plugins
+  sbom*       View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc., 0.6.0)
+  scan*       Docker Scan (Docker Inc., v0.17.0)
+  secret      Manage Docker secrets
+  service     Manage services
+  stack       Manage Docker stacks
+  swarm       Manage Swarm
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  build       Build an image from a Dockerfile
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  images      List images
+  import      Import the contents from a tarball to create a filesystem image
+  info        Display system-wide information
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  login       Log in to a Docker registry
+  logout      Log out from a Docker registry
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  ps          List containers
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  run         Run a command in a new container
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  search      Search the Docker Hub for images
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  version     Show the Docker version information
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker COMMAND --help' for more information on a command.
+
+To get more help with docker, check out our guides at https://docs.docker.com/go/guides/
+
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker start -i b2a8e19b21b6
+Python 3.10.5 (main, Jun 23 2022, 10:42:52) [GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> docker container prune
+  File "<stdin>", line 1
+    docker container prune
+           ^^^^^^^^^
+SyntaxError: invalid syntax
+>>> docker container prune
+  File "<stdin>", line 1
+    docker container prune
+           ^^^^^^^^^
+SyntaxError: invalid syntax
+>>>  docker ps -all
+  File "<stdin>", line 1
+    docker ps -all
+IndentationError: unexpected indent
+>>> cd:
+  File "<stdin>", line 1
+    cd:
+       ^
+SyntaxError: invalid syntax
+>>> cde
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cde' is not defined
+>>> cd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cd' is not defined. Did you mean: 'id'?
+>>> docker ps
+  File "<stdin>", line 1
+    docker ps
+           ^^
+SyntaxError: invalid syntax
+>>> exit()
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+b2a8e19b21b6cdacf51c1ac672ac9ac66100f8db69b5fafd42924baf008c2c69
+4c5476a6e11e0d78d8402d4e5855f65a25f7d183103a4b9f4ce751e187c853d4
+fc8ff71868dad932e286b09adcf64714f5a8fe6ff70a08fbad3b6b2a845718e5
+14be388f716f80caecd1cab3aad97af9ad3b683174d6c4b9cbe8da6ab085ee60
+
+Total reclaimed space: 1.002MB
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker image prune
+WARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker image --help
+
+Usage:  docker image COMMAND
+
+Manage images
+
+Commands:
+  build       Build an image from a Dockerfile
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Display detailed information on one or more images
+  load        Load an image from a tar archive or STDIN
+  ls          List images
+  prune       Remove unused images
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rm          Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+
+Run 'docker image COMMAND --help' for more information on a command.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker image COMMAND --help
+
+Usage:  docker image COMMAND
+
+Manage images
+
+Commands:
+  build       Build an image from a Dockerfile
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Display detailed information on one or more images
+  load        Load an image from a tar archive or STDIN
+  ls          List images
+  prune       Remove unused images
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rm          Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+
+Run 'docker image COMMAND --help' for more information on a command.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker images --help
+
+Usage:  docker images [OPTIONS] [REPOSITORY[:TAG]]
+
+List images
+
+Options:
+  -a, --all             Show all images (default hides intermediate images)
+      --digests         Show digests
+  -f, --filter filter   Filter output based on conditions provided
+      --format string   Pretty-print images using a Go template
+      --no-trunc        Don't truncate output
+  -q, --quiet           Only show image IDs
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker images
+REPOSITORY               TAG       IMAGE ID       CREATED        SIZE
+python                   latest    0f95b1e38607   2 days ago     920MB
+docker/getting-started   latest    cb90f98fd791   2 months ago   28.8MB
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker rm dockercb90f98fd791
+Error: No such container: dockercb90f98fd791
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker image rm cb90f98fd791
+Untagged: docker/getting-started:latest
+Untagged: docker/getting-started@sha256:b558be874169471bd4e65bd6eac8c303b271a7ee8553ba47481b73b2bf597aae
+Deleted: sha256:cb90f98fd791dd49f09903cef3eb2245646b4d76b093825ea78e0f7bb8fb3403
+Deleted: sha256:b6b308c7ce72e0286f9455b9f76ae6cafe55fcc6b068950414165f43bda11fd7
+Deleted: sha256:711ca3e1c68e1406fd5b96a71fcf29e4838887b827bd4ee48dfc6e6a62d8fabf
+Deleted: sha256:1380ce106a10fac3c312f83ddf8406d187d5c0dd567d9a2454abe6ba563114cd
+Deleted: sha256:36e9639dd7f8b2549aba50c0a7d2402510ddb99d3e789515ab6646f21ef392ec
+Deleted: sha256:b35646458162a8f3289c0605c02ad46c2a05ae5c977a46e11d56962b373e1e98
+Deleted: sha256:e61e5c961a35926efc4df0bcd33aa988c860ba8440ae2bb713084b14b89c9806
+Deleted: sha256:f60e2e50f4b58e60ef21034b9d2df92705fa8bb3870b2ca81089de8af45a2e90
+Deleted: sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628
+[+] Building 63.0s (11/11) FINISHED
+ => [internal] load build definition from Dockerfile                                       3.4s
+ => => transferring dockerfile: 244B                                                       0.7s
+ => [internal] load .dockerignore                                                          3.0s
+ => => transferring context: 2B                                                            0.3s
+ => [internal] load metadata for docker.io/library/python:3                                4.8s
+ => [auth] library/python:pull token for registry-1.docker.io                              0.0s
+ => [1/6] FROM docker.io/library/python:3@sha256:eeed7cac682f9274d183f8a7533ee1360a26acb  11.2s
+ => [internal] load build context                                                          3.7s
+ => => transferring context: 436B                                                          0.0s
+ => [2/6] WORKDIR /usr/src/app                                                             1.4s
+ => [3/6] COPY requirements.txt ./                                                         1.7s
+ => [4/6] RUN pip install --no-cache-dir -r requirements.txt                              34.3s
+ => [5/6] COPY . .                                                                         1.6s
+ => ERROR [6/6] RUN [ "/bin/bash", "ls" ]                                                  3.1s
+------
+ > [6/6] RUN [ "/bin/bash", "ls" ]:
+#11 2.117 /bin/ls: /bin/ls: cannot execute binary file
+------
+executor failed running [/bin/bash ls]: exit code: 126
+[+] Building 10.3s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                       1.0s
+ => => transferring dockerfile: 210B                                                       0.0s
+ => [internal] load .dockerignore                                                          1.3s
+ => => transferring context: 2B                                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3                                2.3s
+ => [1/5] FROM docker.io/library/python:3@sha256:eeed7cac682f9274d183f8a7533ee1360a26acb3  0.0s
+ => [internal] load build context                                                          0.5s
+ => => transferring context: 281B                                                          0.0s
+ => CACHED [2/5] WORKDIR /usr/src/app                                                      0.0s
+ => CACHED [3/5] COPY requirements.txt ./                                                  0.0s
+ => CACHED [4/5] RUN pip install --no-cache-dir -r requirements.txt                        0.0s
+ => [5/5] COPY . .                                                                         1.1s
+ => exporting to image                                                                     4.3s
+ => => exporting layers                                                                    3.3s
+ => => writing image sha256:c89b3c14edccc2c91f55d01ebb88383b28c4017b781399323b1451ea9105a  0.1s
+ => => naming to docker.io/library/my-python-app                                           0.1s
+[+] Building 5.7s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                       0.7s
+ => => transferring dockerfile: 210B                                                       0.0s
+ => [internal] load .dockerignore                                                          1.0s
+ => => transferring context: 2B                                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3                                2.3s
+ => [1/5] FROM docker.io/library/python:3@sha256:eeed7cac682f9274d183f8a7533ee1360a26acb3  0.0s
+ => [internal] load build context                                                          0.4s
+ => => transferring context: 281B                                                          0.0s
+ => CACHED [2/5] WORKDIR /usr/src/app                                                      0.0s
+ => CACHED [3/5] COPY requirements.txt ./                                                  0.0s
+ => CACHED [4/5] RUN pip install --no-cache-dir -r requirements.txt                        0.0s
+ => CACHED [5/5] COPY . .                                                                  0.0s
+ => exporting to image                                                                     1.2s
+ => => exporting layers                                                                    0.0s
+ => => writing image sha256:c89b3c14edccc2c91f55d01ebb88383b28c4017b781399323b1451ea9105a  0.1s
+ => => naming to docker.io/library/my-python-app                                           0.0s
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+[+] Building 10.7s (11/11) FINISHED
+ => [internal] load build definition from Dockerfile                                       0.7s
+ => => transferring dockerfile: 32B                                                        0.0s
+ => [internal] load .dockerignore                                                          1.0s
+ => => transferring context: 2B                                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3                                5.5s
+ => [auth] library/python:pull token for registry-1.docker.io                              0.0s
+ => [1/5] FROM docker.io/library/python:3@sha256:eeed7cac682f9274d183f8a7533ee1360a26acb3  0.0s
+ => [internal] load build context                                                          0.4s
+ => => transferring context: 203B                                                          0.0s
+ => CACHED [2/5] WORKDIR /usr/src/app                                                      0.0s
+ => CACHED [3/5] COPY requirements.txt ./                                                  0.0s
+ => CACHED [4/5] RUN pip install --no-cache-dir -r requirements.txt                        0.0s
+ => [5/5] COPY . .                                                                         1.0s
+ => exporting to image                                                                     2.0s
+ => => exporting layers                                                                    1.0s
+ => => writing image sha256:6a7ba7ddda806c77bfaba4da6a042bc973c0ac58fad5e8ec48f3e8c55e610  0.1s
+ => => naming to docker.io/library/practice                                                0.1s
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -it --rm --name practicecontainer practice
+Hello
+youme
+1.3.5
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker logs practicecontainer
+Error: No such container: practicecontainer
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps --all
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps --help
+
+Usage:  docker ps [OPTIONS]
+
+List containers
+
+Options:
+  -a, --all             Show all containers (default shows just running)
+  -f, --filter filter   Filter output based on conditions provided
+      --format string   Pretty-print containers using a Go template
+  -n, --last int        Show n last created containers (includes all
+                        states) (default -1)
+  -l, --latest          Show the latest created container (includes all
+                        states)
+      --no-trunc        Don't truncate output
+  -q, --quiet           Only display container IDs
+  -s, --size            Display total file sizes
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps -l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> history
+
+  Id CommandLine
+  -- -----------
+   1 cd Desktop
+   2 cd Springboard
+   3 mkdir DockerPractice
+   4 cd DockerPractice
+   5 docker ps
+   6 docker images
+   7 docker build python: latest
+   8 docker build --help
+   9 docker pull python: latest
+  10 docker pull python: latest
+  11 docker pull python:latest
+  12 docker images
+  13 docker run python
+  14 docker ps
+  15 docker kill docker/getting-started
+  16  docker kill 14be388f716f
+  17 docker ps
+  18 docker run --help
+  19 docker run -d
+  20 docker run -d python
+  21 docker ps
+  22 docker ps --hlep
+  23 docker ps -a
+  24 docker run -it
+  25 docker run -it python
+  26 docker ps
+  27 docker ps -all
+  28 docker run b2a8e19b21b6 -it
+  29 docker run --help
+  30 docker start b2a8e19b21b6 -it
+  31 docker start -i
+  32 docker starts -i b2a8e19b21b6
+  33 docker start -i b2a8e19b21b6
+  34 docker container prune
+  35 docker image prune
+  36 docker image --help
+  37 docker image COMMAND --help
+  38 docker images --help
+  39 docker ps
+  40 docker images
+  41 docker rm dockercb90f98fd791
+  42 docker image rm cb90f98fd791
+  43 docker images
+  44 docker image prune
+  45 ls
+  46 docker build -t my-python-app .
+  47 docker build -t my-python-app .
+  48 docker build -t my-python-app .
+  49 docker build -t practice .
+  50 docker run -it --rm --name practicecontainer practice
+  51 docker logs practicecontainer
+  52 docker ps
+  53 docker ps -a
+  54 docker ps --all
+  55 docker ps --help
+  56 docker ps -l
+
+
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> !50
+False
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> history 50
+
+  Id CommandLine
+  -- -----------
+  50 docker run -it --rm --name practicecontainer practice
+
+
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -it --rm --name practicecontainer practice
+Hello
+youme
+1.3.5
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -it --name practicecontainer practice
+Hello
+youme
+1.3.5
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps -a
+CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS                      PORTS     NAMES
+615c62bd9dbe   practice   "python ./dockerprac…"   20 seconds ago   Exited (0) 17 seconds ago             practicecontainer
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker logs
+"docker logs" requires exactly 1 argument.
+See 'docker logs --help'.
+
+Usage:  docker logs [OPTIONS] CONTAINER
+
+Fetch the logs of a container
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker logs practicecontainer
+Hello
+youme
+1.3.5
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker logs -v practicecontainer
+unknown shorthand flag: 'v' in -v
+See 'docker logs --help'.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker logs --help
+
+Usage:  docker logs [OPTIONS] CONTAINER
+
+Fetch the logs of a container
+
+Options:
+      --details        Show extra details provided to logs
+  -f, --follow         Follow log output
+      --since string   Show logs since timestamp (e.g.
+                       2013-01-02T13:23:37Z) or relative (e.g. 42m for 42
+                       minutes)
+  -n, --tail string    Number of lines to show from the end of the logs
+                       (default "all")
+  -t, --timestamps     Show timestamps
+      --until string   Show logs before a timestamp (e.g.
+                       2013-01-02T13:23:37Z) or relative (e.g. 42m for 42
+                       minutes)
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -dit --name practicecontainer practice
+docker: Error response from daemon: Conflict. The container name "/practicecontainer" is already in use by container "615c62bd9dbe796dc6172fec67a19c59992954ac489060fec0bd0971bef3d643". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker run -dit --name practicecontainer2 practice
+27b66f1012b4991b717d2edc13c768fe18b1d8468cc4ec9975b2fd08e08b9daf
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps -a
+CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS                      PORTS     NAMES
+27b66f1012b4   practice   "python ./dockerprac…"   18 seconds ago   Exited (0) 14 seconds ago             practicecontainer2
+615c62bd9dbe   practice   "python ./dockerprac…"   3 minutes ago    Exited (0) 3 minutes ago              practicecontainer
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker start -i 27
+Hello
+youme
+1.3.5
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker ps -a
+CONTAINER ID   IMAGE      COMMAND                  CREATED              STATUS                      PORTS     NAMES
+27b66f1012b4   practice   "python ./dockerprac…"   About a minute ago   Exited (0) 23 seconds ago             practicecontainer2
+615c62bd9dbe   practice   "python ./dockerprac…"   4 minutes ago        Exited (0) 4 minutes ago              practicecontainer
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker start 27
+27
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+27b66f1012b4991b717d2edc13c768fe18b1d8468cc4ec9975b2fd08e08b9daf
+615c62bd9dbe796dc6172fec67a19c59992954ac489060fec0bd0971bef3d643
+
+Total reclaimed space: 4.362kB
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker images prune
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker images
+REPOSITORY      TAG       IMAGE ID       CREATED          SIZE
+practice        latest    6a7ba7ddda80   14 minutes ago   1.05GB
+my-python-app   latest    c89b3c14edcc   17 minutes ago   1.05GB
+python          latest    0f95b1e38607   2 days ago       920MB
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker image rm my-python-app
+Untagged: my-python-app:latest
+Deleted: sha256:c89b3c14edccc2c91f55d01ebb88383b28c4017b781399323b1451ea9105aee5
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice> docker images
+REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+practice     latest    6a7ba7ddda80   15 minutes ago   1.05GB
+python       latest    0f95b1e38607   2 days ago       920MB
+PS C:\Users\Lindsey\Desktop\Springboard\DockerPractice>

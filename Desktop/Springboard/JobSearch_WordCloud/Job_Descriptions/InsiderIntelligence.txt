@@ -1,0 +1,32 @@
+At Insider Intelligence, we value flexibility and understand everyone's situation is different. For that reason, we are open to hiring either fully remote or in office employees.
+
+
+Insider Intelligence is hiring a Data Analyst to join our Data and Analytics team. This job at minimum requires a strong working knowledge of and experience with SQL.
+
+The Data and Analytics team plays a critical role enabling data-driven decision-making within Insider Intelligence. As a Data Analyst, you’ll work across departments to figure out how to benchmark and track success, and then build out the supporting systems and dashboards to put the plan into action using programming languages including SQL in systems including Snowflake, Power BI, FiveTran, and dbt.
+
+The role is a great opportunity to gain experience working with senior stakeholders, and learn about the operations of different departments while applying and honing your technical skills to extract, transform, and load data to solve high priority business challenges.
+
+
+The Ideal Candidate Is:
+
+Passionate about and technically proficient in setting up database systems, processing data, and developing dashboards to give stakeholders clear, actionable, and elegant ways to track business performance.
+An exceptional communicator with strong listening skills, a knack for making complex topics simple, and an ability to meet stakeholders at their level of technical competence.
+A self-motivated independent worker with strong attention.
+An avid collaborator who enjoys working with different business teams including Sales, Marketing, Strategy, Finance, and Content.
+Committed to fostering an inclusive culture and values a representative workplace that embraces diversity of thought and experience.
+
+Key Responsibilities:
+
+Develop reporting dashboards in PowerBI using M Language or DAX
+Develop ETL scripts in Fivetran, dbt, Dataform
+Write complex SQL queries on the Snowflake platform
+Create data dictionaries and document the data model, tables, and entity relationships
+Write efficient code in either Python or R
+
+Desired Skills & Experience:
+
+Strong command of SQL, with minimum two years in a corporate/commercial setting.
+Working experience with at least one modern ETL tool.
+Solid understanding of Power BI data model and languages,
+Familiarity with any of the major Cloud Computing and Cloud Data Warehouse environments (Snowflake prefered)

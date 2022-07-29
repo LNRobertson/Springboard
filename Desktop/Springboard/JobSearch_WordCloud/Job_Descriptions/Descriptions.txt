@@ -1,0 +1,450 @@
+ApiJect is seeking a Digital Marketing Analyst that can help Marketing Team create, manage, and report on digital environments. This position’s responsibilities include working with the marketing team to design and build landing pages and social platform pages, build email campaigns, set up and execute digital advertising campaigns, and synthesize all of the digital spend and visitor traffic across our various projects into understandable reports/dashboards with meaningful insights. Beyond those core responsibilities, this individual will also assist on a range of other efforts including website maintenance, content creation and dissemination, digital media buying, and special business projects for ApiJect and ApiJect-related entities/brands.
+Act as point-person for all marketing website and marketing digital platform tasks and management responsibilities.
+Work with managers to create real-time reporting and dashboards for digital platform traffic and visitor behaviors.
+Build and maintain the content and functionality of ApiJect's various digital platforms (website, Linkedln, Twitter, email, CRM, etc) as well as the backend data tracking across them.
+Assist in setting up and managing Mailchimp and any future marketing CRMs, and the ongoing transfer of data within those environments.
+Project management responsibilities include the coordination and completion of marketing and assigned projects on time, within scope and within budget.
+Organize, lead, and help execute company?special projects?that may fall outside the scope of regular?duties.
+Manage vendor relationships with technical and creative vendors for our digital platforms.
+Position Requirements
+Deep experience with modern web tracking tools including Google Analytics, Google Tag Manager, Google Data Studio, and Segment (or equivalents).
+Has at least 2 years of experience building and operating the tracking of digital advertising campaigns that use social media, AdWords, remarketing networks, and other equivalent ad-serving platforms.
+Has at least 3 years of experience installing website tracking, including setting up goals and custom events.
+Deep experience setting up and managing Wordpress websites and their templates.
+Proficient in HTML/CSS and javascript (other related languages are a positive)
+Landing page UI design experience is a plus.
+Have worked either in a startup environment or on autonomous small teams within larger organizations.
+Bachelors degree (in lieu of a degree we will consider direct experience and credentials).
+This role will support event strategies that develop the brand and engage our key audiences with positive content experiences. The ideal candidate thrives in a fast-paced atmosphere; where prioritizing, multi-tasking, and meeting multiple deadlines are the norm.
+Ability to work remote (company has several offices but most employees work from home)
+About the Organization ApiJect Systems, Corp., is a public-benefit medical technology company working to use our platform to bring more prefilled, single-dose injections to patients everywhere. The ApiJect Platform enables pharmaceutical and biotech companies to design scalable prefilled injectors and efficiently fill-finish them with their injectable drug products.
+Today, our team of data analysts, scientists, engineers, and strategists come together from diverse backgrounds to share a passion for using data to solve the world’s greatest social and analytical challenges. We’ve served more than 400 organizations ranging from government agencies, advocacy groups, unions, political campaigns, international groups, and companies. Along the way, we’ve developed some of the most innovative tools available in analytics, media optimization, reporting, and influencer outreach-- serving a diverse set of industries, including the automotive, travel, consumer packaged goods, entertainment, healthcare, media, telecom, and more.
+
+About the team:
+
+The BlueLabs Government Analytics practice revolutionizes the way government agencies use data to streamline operations, interact with citizens, and react to their biggest challenges. Our team develops deep expertise within the areas our clients care about most, then builds data analytics systems that create impact at scale. We work closely with internal government innovation groups, and build on the analytics methodology pioneered in e-commerce, advocacy, politics, and consumer finance.
+
+You will work on a fast-paced, impact-driven project team charged with intelligently improving the operations powering the policies and programs that hundreds of millions of Americans interact with on a daily basis. Our work builds the frameworks and infrastructure that allows agencies to deal with big public health challenges. We bring definition to challenging problems, creatively identify data sources, then design analytics that accurately measure impact and move the needle every day. We work in changing, ambiguous environments, so we embrace nuance, inclusivity, and complexity to deliver programs that work for the diverse groups of individuals who rely on us.
+
+
+About the role:
+
+As a Business Analyst on our Civic Tech team, you will contribute your technical expertise to our government client programs. You will work closely with a team of analysts, engineers, and program leads to develop business intelligence recommendations. You will evaluate data to present recommended changes to a user-facing tool stakeholders use to support their mission-critical programs. This position reports to the Program Manager.
+
+
+In this position you will:
+
+Develop and conduct exploratory analysis of existing business processes for an end-user support office with a federal government client
+Deliver and present recommendations to improve or design new business processes based on client stakeholder needs, keeping in mind concepts of human-centered design
+Develop and implement reporting on key performance indicators and success metrics using ServiceNow software
+Collaborate with developers to design and test user interface changes and reporting requirements
+Perform such other reasonable tasks as may be assigned by management.
+
+What we are seeking:
+
+Experience translating business requirements into technical requirements for designers and developers
+Experience facilitating requirements gathering sessions with client stakeholders of varying job functions, years of service, and technical background
+Developed solutions in collaboration with input from both an internal team and key client stakeholders
+Experience navigating a suite of data tables as part of an enterprise
+SQL coding experience to report on user or customer interactions
+Ability to problem solve, identify risks, and present recommendations to clients
+Effective communication and presentation skills with peers, clients, and stakeholders
+Strong intuition for a desirable user experience as a customer and task fulfiller
+Passion for social impact in a data and technology space for federal government clients
+In order to be qualified for this position you must currently have or be able to obtain and maintain a Federal Public Trust security clearance, which includes a requirement to have either US Citizenship or three (3) of five (5) years of US residency
+
+You may also have:
+
+Worked with ServiceNow software or similar customer service style platform
+R and/or Python programming experience
+We are looking for a business-savvy data analyst with great product intuition to join our team! This role will help us make key strategic decisions to grow our weekly active user base from tens of thousands to millions over the next five years.
+
+As one of the founding members of the data team, you'll partner with our Product, Operations, and Marketing teams to define metrics and conduct deeper analyses to help us make more informed decisions about our business. You'll also work closely with our Chief Data Scientist to deepen your understanding of machine learning and build data tools for the rest of the company.
+
+You will be collaborating closely with product managers, marketing leads, and executive leadership to build impactful products that delight our users. You thrive in a fast-paced environment, are a self-starter, and are motivated by the opportunity to solve thorny data problems with lots of ambiguity. You possess a passion to solve problems, an ability to think creatively outside of the box, and a passion for working with a diverse group of people from around the world.
+
+Major Responsibilities:
+Define key metrics for new initiatives, like new product launches and marketing campaigns
+Build and analyze dashboards and reports to help us understand how product features and marketing campaigns are performing
+Monitor key metrics and investigate root causes of changes in metrics
+Partner with Product and Engineering to design and evaluate A/B tests
+Find actionable insights through funnels, cohort analyses, user segmentation, retention analyses and models to help us improve our product
+Collaborate with key stakeholders, including the Executive Team, to validate major strategic bets
+Partner with engineers and data scientists on common areas of scalability, data quality management, data delivery management and performance optimization
+Propose what to build in the future product roadmap, understand user behaviors and long-term trends, identify new levers to help move key user metrics
+
+Qualifications:
+3+ years of data analyst experience at a consumer tech company, ideally with at least 1 year at a startup
+Strong quantitative modeling, statistical analysis and problem-solving skills
+Deep experience with SQL, bonus points if you're also comfortable with R, Python and data science libraries
+Excellent business acumen and product intuition
+Great verbal, visual, and written communication skills, especially in communicating data findings using the right visualizations
+Ability to work effectively with product, marketing, and engineering teams in a cross-cultural and cross-functional environment
+Deep, intrinsic desire to excel and grow
+Brooksource is looking to hire an Associate level Business Analyst for one of our Fortune 500 clients. As the Jr Business Analyst, you will take a key role in analyzing business requirements and data associated to incident, problem, change management, and statements of work. You will help collect metrics to ensure operational excellence, service levels, security and compliance processes are adhered to. You will work cross functionally with business and IT stakeholders to define project needs and scopes to plan and execute accordingly.
+
+
+Qualifications:
+
+Bachelor’s Degree in Computer Science, Information Technology, Business or related field
+Strong excel experience (pivot tables, VLookups, etc.)
+Strong knowledge of databases and relational database concepts (SQL, Oracle)
+Experience working with external partners, customers and data providers
+The ability to manage multiple priorities, build productive relationships, make decisions in an ambiguous environment and understand technical concepts
+
+Responsibilities:
+
+Assist management in the analysis of data associated with our run organization (Incident management, problem management, SLA adherence, etc.)
+Liaise with both internal and external vendors to ensure that the business partners receive an uninterrupted and high level of communication and service
+Ensure all work undertaken conforms to internal J&J regulations as well as any external requirements (e.g GxP, Privacy, SDLC)
+Ensure compliance requirements are met, oversees documentation activities and participates in compliance activities as required
+Maintain close contact with business users and other IT groups to ensure alignment of processes and IT activities
+The Role In Brief
+
+Associate Data Analyst, Advancement Marketing Services
+
+Our Data Analysts are an integral part of a small team focused on finding data-based insights to help optimize advancement outcomes (fundraising and alumni giving) for our higher education college and university partners. Analysts work with our partners, internal account managers and each other to interpret for partners the real-world implications of advancement data. Associate Data Analysts collect and standardize disparate data sets and organize partner data for analysis and production. Ideal candidates have a passion for data-based decision-making and proven communication skills.
+
+This role is based in Richmond, VA. As EAB embraces a hybrid-work environment in the future, exceptional candidates who may be based remotely are encouraged to apply.
+
+Primary Responsibilities
+Liaise with clients and EAB account managers to collect and standardize partner data for analysis, including test for data integrity and work with partners to resolve data-related issues
+Create and maintain documentation of business rules used to standardize and consume partner data
+Stay knowledgeable and up-to-date on intricate partner data related issues
+Serve as a point of contact for partner data specific questions under the account team
+Promote and implement data standardization procedures among EAB team and our partners
+Ensure high partner satisfaction ratings for data integrity and quality
+Ensure specific partner data needs are met as they arise throughout the campaign cycle
+Assist with interpreting and illustrating data for partner reports and presentations (creating charts and graphs)
+Confidently participate in person, via email or phone with partners to discuss data requirements
+Basic Qualifications
+Bachelor’s degree in a related field (or equivalent work experience)
+1 year of experience in either an analyst or data support role, or within an Advancement office in a role heavily focused on donor data
+Experience communicating and collaborating in person, via email and on the phone
+Excellent organization, attention to detail and time management skills
+Ability to multi-task and adapt to changing priorities
+Ideal Qualifications
+Experience with fundraising and/or marketing automation software
+Familiarity with SQL
+Familiarity with the fundraising, higher education and/or direct marketing industries
+Experience using data and analytics in a fundraising environment a plus
+Commitment to valuing diversity, practicing inclusive behaviors, and contributing to an equitable working and continual learning environment in support of EAB’s DE&I Promise
+Description
+
+We are seeking a Business Intelligence Specialist in our Analytics and Insights Group within the Strategic Sourcing and Procurement Organization (SS&P). This position is located in our Atlanta, GA Headquarters.
+
+
+The overall Analytics and Insights Group is responsible for supporting the current and developing needs of Sourcing and Procurement Organization by developing data visualizations, intelligent process automation solutions, custom web applications, geospatial analytics and data science applications to turn raw data into actionable insights. The Analytics and Insights Group operates as an analytics COE within the organization working between our business customers and our IT partners to deliver new insights. The Business Intelligence Specialist will be responsible for supporting the strategic design, development and maintenance of business intelligence applications. The candidate will serve as a BI subject matter expertise for other Analytics and Insights members and business customers.
+
+
+The ideal candidate is a skilled leader with experience in working with large data sets in a variety of enterprise business intelligence applications including Qlik Sense and Tableau with both a technical and business functional skill set.
+
+
+******Open to the role being remote except in the following states: Connecticut, Nevada, Rhode Island, or Colorado****
+
+
+What You Will Do In Your Role
+
+Acts as the day-to-day, business owner of our existing business intelligence applications built on platforms such as Qlik Sense and Tableau.
+Identify and develop innovative tools for enhanced analysis or data presentation to improve decision making and performance within the organization.
+Responsible for working with all levels throughout the organization in order to gather and document the organizational BI needs.
+Responsible for translating high-level and detailed business requirements into concrete BI solutions that address all facets of the organizational business intelligence needs.
+Responsible for delivering self-service tools and training to maximize organizational self-service and self-sufficiency.
+Understands business needs and translates them into business and functional requirements. Works alongside IT support to translate functional requirements into technical designs when required.
+Develops and maintains detailed documentation of the BI solutions to ensure effective development, maintenance and support.
+Proactively communicates new and innovative ideas, solutions, etc. to help advance the organization. Educates and trains team members on new technologies and BI trends.
+Create adhoc queries to provide information requested by business users as needed.
+Demonstrate the skills and knowledge to establish and manage timelines, project priorities and handle multiple/concurrent projects. Maintain a sense of accountability and responsibility.
+Demonstrates high degree of professionalism in communication, attitude and teamwork with customers, peers and management.
+
+The Experience You Will Bring
+
+Requirements
+
+Experience utilizing SQL to navigate large enterprise data stores.
+Experience developing in business intelligence tools such as Tableau, Power BI, Qlik Sense
+
+What Will Put You Ahead
+
+Bachelor's degree in Computer Science, Information Systems, Data Analytics or Statistical area.
+At least 2 years of experience utilizing SQL to navigate large enterprise data stores.
+At least 2 years of experience developing in business intelligence tools such as Tableau, Power BI, Qlik Sense.
+Experience in intelligent automation solutions, custom web applications and advanced analytics applications
+At Insider Intelligence, we value flexibility and understand everyone's situation is different. For that reason, we are open to hiring either fully remote or in office employees.
+
+
+Insider Intelligence is hiring a Data Analyst to join our Data and Analytics team. This job at minimum requires a strong working knowledge of and experience with SQL.
+
+The Data and Analytics team plays a critical role enabling data-driven decision-making within Insider Intelligence. As a Data Analyst, you’ll work across departments to figure out how to benchmark and track success, and then build out the supporting systems and dashboards to put the plan into action using programming languages including SQL in systems including Snowflake, Power BI, FiveTran, and dbt.
+
+The role is a great opportunity to gain experience working with senior stakeholders, and learn about the operations of different departments while applying and honing your technical skills to extract, transform, and load data to solve high priority business challenges.
+
+
+The Ideal Candidate Is:
+
+Passionate about and technically proficient in setting up database systems, processing data, and developing dashboards to give stakeholders clear, actionable, and elegant ways to track business performance.
+An exceptional communicator with strong listening skills, a knack for making complex topics simple, and an ability to meet stakeholders at their level of technical competence.
+A self-motivated independent worker with strong attention.
+An avid collaborator who enjoys working with different business teams including Sales, Marketing, Strategy, Finance, and Content.
+Committed to fostering an inclusive culture and values a representative workplace that embraces diversity of thought and experience.
+
+Key Responsibilities:
+
+Develop reporting dashboards in PowerBI using M Language or DAX
+Develop ETL scripts in Fivetran, dbt, Dataform
+Write complex SQL queries on the Snowflake platform
+Create data dictionaries and document the data model, tables, and entity relationships
+Write efficient code in either Python or R
+
+Desired Skills & Experience:
+
+Strong command of SQL, with minimum two years in a corporate/commercial setting.
+Working experience with at least one modern ETL tool.
+Solid understanding of Power BI data model and languages,
+Familiarity with any of the major Cloud Computing and Cloud Data Warehouse environments (Snowflake prefered)
+About the role: We are looking to expand our growing Revenue Operations team with a Business Analyst who can help us transform and optimize our sales processes and reporting analytics. The role will play an essential part in growing revenue and building scale in the Sales organization by increasing Sales Representative productivity, effectiveness, and deal velocity through the intelligent use of data and improved processes that reduce friction. To be successful, the person will work closely with teams across the organization involved in the order-to-cash process and customer experience.
+
+
+Primary Responsibilities:
+
+Collect, structure, and analyze data required for quantitative and qualitative Revenue Operations reporting in support of improvement initiatives, annual budget planning, forecasting, and business performance.
+Work collaboratively with stakeholders and conduct business analysis and research to identify key metrics and opportunities for improvement.
+Develop and implement processes and procedures to ensure business solutions meet strategic goals.
+Develop and maintain key dashboards and data visualizations in Tableau that effectively present insights and engage users in the management of the business.
+Help to improve our forecasting and pipeline management processes through data, analytics, and predictive models.
+Support executive level and Board reporting.
+
+Requirements:
+
+1-3 years of relevant industry experience in analytics, growth strategy, and operational functions.
+Bachelor’s degree in Business, Computer Science, Finance or similar discipline or relevant experience.
+Excellent data and analytical skills with proficiency in SQL and Excel.
+Data visualization (ideally in Tableau) and Salesforce experience preferred.
+Must be detail-oriented with strong problem-solving and critical thinking skills.
+Ability to work in a fast-paced, dynamic environment with changing priorities.
+Strong business and sales acumen.
+Strong interest in learning and improving systems and processes across functions.
+The Product Manager / Business Analyst role will collaborate with internal and external stakeholders to refine the product vision, product roadmap, build product requirements documents with detailed functional requirements, and become a subject matter expert for the products, all from within the Web Development department.
+
+The ideal candidate is someone who has worked in ecommerce or other consumer facing websites, as a product manager, business analyst or other technical or marketing role. The candidate should have an aptitude and interest for defining product requirements and direction and can work with a wide variety of internal and external stakeholders.
+
+Duties
+Manage day-to-day operations, clarify requirements, analyze business value and prioritize development efforts for multiple technology projects of various complexities.
+Work in conjunction with a team of Web Developers, Test Case Writers, Quality Assurance Analysts, Project Managers, Copywriters, UX Designers, and Business Units to develop new products and to provide ongoing management for existing products
+Subject matter expert and technology evangelist for the web properties, apps, and APIs, including providing transfer of information and product familiarization on both current product functionality and new product enhancements throughout the company, and to third-party integrators and integration projects
+Own product requirement definition and documentation
+Develop requirements documents that define product enhancements and development initiatives
+Conduct product brainstorm sessions with inter-departmental teams to define product and technology requirements and strategies
+Participate in product design activities, wireframes, flow charting, and mockups that generate user friendly solutions that provide clear end-user benefits and differentiation from competitor products
+Assess stakeholder needs, technology trends, and major competitors in order to synthesize product and technical requirements
+Skills
+Strong analytical skill set to decipher business needs and recommend solutions
+Ability to become a Subject Matter Expert for all ecommerce products
+Strong organizational skills, with the ability to manage and develop various products at different stages
+Excellent communication skills, to both internal and external stakeholders, both oral and written, including authorship of product-related documentation
+Ability to develop functional product specifications
+Ability to think creatively and excellent problem solving skills
+Can take charge and thrive in uncharted territory
+Able to communicate with technical and non technical people
+Able to influence without authority
+Highly responsible, self-disciplined, creative, and confident
+Ability to juggle priorities, pace, and multiple deliverables
+Understanding of how the web works, HTML
+Solid understanding of application architectures, databases, APIs, etc. 1 – 2 years of software development experience a plus
+Ability to write basic ad-hoc SQL queries for requirements gathering
+About Lark
+Lark is the world's largest A.I. healthcare provider, servicing nearly 2 million patients living with or at risk of a chronic disease. Lark is a companion app on the user’s phone providing real-time coaching, guidance, and health insights to users. We are on a mission to disrupt the healthcare industry and make the world a healthier, happier place. Come join our team!
+
+The Role
+As Lark’s Marketing Analyst, you will be the analytical arm of our marketing activities. You will provide the data driven view-point to our marketing campaigns, own the measurement and data accuracy of our marketing data, and develop strategic analysis to improve our user enrollment, engagement and retention metrics.
+
+What You’ll Do
+You will develop new approaches to grow our user enrollments
+You will build visualizations to evaluate the performance of our different marketing channels and make strategic decisions
+You will generate data driven insights for our marketing campaigns
+You will oversee and run different tests and experiments to efficiently scale our user base
+
+What You’ll Need
+Experience with SQL or Python
+Excel/Google sheets expertise
+Confidence using a variety of techniques to connect and analyze large data sets
+Experience with marketing analytics tools such as Google analytics, Google tag manager, and Optimizely
+Experience building visualizations with visualization tools such as Tableau, Periscope, Looker or equivalent
+Experience with marketing measurement methodologies (marketing mix models and multi-touch attribution)
+Ability to articulate complex concepts to a non-technical audience
+Strong written and verbal communication skills required
+Previous experience in a growing startup is a plus
+The Role-
+
+Modern Health's data team is growing rapidly, and we're looking to bring on a product analyst to help us understand and improve our members' experience. We're looking for someone who can bring hands-on experience digging into behavioral data to influence our product roadmap and strategy. You'll work closely with product-squads (product, engineering, design teams) and lend your expertise in statistics, reporting, and instrumentation. You'll work closely with engineers to track engagement with our mental health platform and be responsible for defining and visualizing the metrics that will help improve our members' quality of care.
+
+In this role, you'll dive deep into three main product areas: activation, engagement, and outcomes. You'll analyze our onboarding funnel to understand members' pain points and help them access the care they're looking for. From there, you'll work with care and ops teams to understand members' engagement with our platform across our therapy, 1:1 coaching, and digital content products; as well as enterprise features like health-plan integration and crisis support. And finally, you'll analyze the impact of our platform on members' well-being and work closely with our sales and customer success teams to share those results with our partner companies.
+
+This role will report to the Product Analytics Manager and is based in San Francisco, CA.
+
+This position is not eligible to be performed in Hawaii.
+
+What You'll Do-
+Define, track, and socialize KPIs related to product goals and outcomes
+Build data sources and self-service dashboards to surface metrics and insights across the product team
+Partner with product managers and directors to understand user journeys and recommend product improvements
+Design product experiments and interpret results to draw detailed and impactful conclusions
+Collaborate with data engineering on building out our data platform and identifying areas for improvement
+Work with product engineers to instrument features and flows to support your analysis
+Help grow the product analytics team's size and scope, defining best practices and operating principles
+Review other analysts' code and results to develop a culture of feedback and integrity
+Foster a strong data-driven culture across Modern Health, from experimental design to rigorous decision-making
+
+Who You Are-
+2+ years of experience in data analytics, data science, or other similar analytical role
+You are fluent in SQL and have built dashboards a data visualization BI tool (Looker, Tableau, etc)
+You have a strong grasp of statistics and experience applying statistics thinking in a real-world context
+You have exceptional verbal and written communication skills. You should be able to explain your approach and the impact of your work to non-technical stakeholders in a way that is clear to them.
+You have a strong product acumen and are comfortable interacting with customers directly when needed
+You have the ability to balance business needs, a sense of urgency, and shipping high quality and pragmatic solutions
+You keep up with the industry trends and identify new tools to use to solve technical problems
+
+Bonus Points If You Have Experience In-
+Working at a high growth startup
+Working on SaaS software
+Working in Health Tech
+Working at companies that have a global presence (e.g. infrastructure deployed in multiple geographies)
+Working with Looker and DBT
+Working in R or Python for more in-depth analyses
+They are seeking a highly motivated Marketing Data Analyst to oversee their Analytic Operations. In this role, you'll be a key contributor to cross functional teams, helping them to understand their data and make sound business decisions.
+
+You’ll Be Responsible To
+Own and drive the analytics roadmap for Digital Marketing and promote data-based decision making across the organization
+Develop tools for cross-functional reports, across all channels, that demonstrate data-driven insights. Weekly reports will be shared and utilized by program managers and executives and should include key information (specific KPIs and metrics) to evaluate performance of live initiatives to provide the ability of a change of course/tactical pivot.
+Develop smart and insightful dashboards and reports tracking performance across channels to promote data-driven decision-making and optimize conversion
+Forecasting performance across all channels based on historical data and growth trends.
+Lead continuous, data-based improvement of all digital marketing and onsite activities via A/B testing and behavioral analysis
+Provide deep-dive analyses and handle ad-hoc queries on a broad range of critical questions
+Collaborate on strategic evolution and growth of our digital and retail platforms
+Have familiarity with DTC, Retail and eCommerce analytics best practices, particularly in a B2C consumer packaged goods context
+Leverage data from multiple sources. Consolidate information (from internal and agency sources) to provide clear and consistent view of marketing performance of initiatives including (campaigns, programs, offers, tactics, etc.)
+Connect marketing initiatives against performance-based metrics (ie: sales lift) comparing against goals and derive key insights across channels.
+Analyze customer retention lifecycle
+Research industry benchmarks, best practices and historic trends to provide insights into the effectiveness of the marketing mix including audiences, channels and content, and make recommendations for optimizing mix
+Who You Are
+Naturally curious, eager to dive in on detailed spreadsheets and extract key insights.
+Clear, able to bring to life and communicate data-driven insights both visually and verbally with an eye towards making complex information both understandable and actionable.
+Diligent and collaborative, with the ability to manage project requests from start to finish (gathering requirements, pulling data, combining reports, extracting insights, preparing and developing presentations)
+What They Like To See In Your Experience
+Minimum of 3 years of experience in analytics/business intelligence required, with preference for this experience in a fast-paced / start-up environment
+Experience in CPG required. Baby category experience preferred.
+Very strong data analytical skills
+Familiar with Google Analytics and Data Studio
+Experienced at managing data at scale and distilling data into KPI dashboards and actionable insights
+Experience working at a start-up, or in a dynamic digital environment with an Agile work mode is highly preferred
+Bachelor’s degree required
+The position will initially target the migration of feeds from one system to another and will require detailed documentation of requirements.
+
+
+You will actively collaborate with business analysts, product managers, engineers, and stakeholders to collect and analyze information and document workflows, with a main focus on leading all aspects of data migration. Your hard work and findings will help to expedite improvements in how producers function day-to-day on a global scale, providing cohesive and efficient workflows to support global production teams and stakeholders throughout the business! Your success hinges on your curiosity, your ability to work with others, dig deep, and organize the information in a digestible manner. We are thrilled to have a new addition to the team.
+
+
+As this position is on a global team, it will be necessary to adjust working hours to accommodate meetings in other time zones.
+
+
+In this role, you will:
+
+Conduct interviews, workshops, and observations with stakeholders and system owners to learn about existing processes and workflows.
+Create and maintain process documentation with workflows and visualization diagrams.
+Support the team in design, testing, implementation, and rollout of new functionalities.
+Ensure systems are mapped accurately.
+Assist with audits of reports and data cleansing.
+Provide recommendations to streamline processes.
+As necessary, participate in sprint planning, scrum, and backlog grooming activities.
+Support User Acceptance Testing for system releases.
+Communicate findings to management and stakeholders via written documentation, meetings, and presentations.
+Ability to adjust communication strategy based on technical and non-technical audiences.
+
+Required Qualifications
+
+Minimum of 3 years of experience as a Business Analyst supporting technical project teams in the definition and delivery of business-critical systems.
+Proven experience performing detailed process mapping as well as documenting gaps and opportunities.
+Expertise in eliciting and documenting business requirements through use cases, user stories, and other means (including workflow diagrams, dataflow diagrams, screen wireframes, etc.).
+Capable of unpacking ambiguous business requirements with excellent prioritization, time management abilities, and a focus on execution.
+Strong verbal/written communication skills. Able to lead meetings and present findings.
+Able to effectively and proactively lead priorities, timelines and deadlines.
+Solid understanding of Agile/iterative product development methodology.
+
+Preferred Qualifications
+
+MBA or Bachelor's degree in Business Administration, Computer Science, Engineering or related field.
+Excellent oral and written communication skills, as well as excellent relationship-management with customers, peers, and executives.
+Strong quantitative and qualitative skills.
+Media or entertainment industry experience is preferred.
+Experience working within a global media company is strongly desired.
+Familiarity with Media Asset Management is preferred
+Experienced with Agile methodologies and JIRA is preferred.
+PlayStation isn’t just the Best Place to Play — it’s also the Best Place to Work. Today, we’re recognized as a global leader in entertainment producing The PlayStation family of products and services including PlayStation®5, PlayStation®4, PlayStation®VR, PlayStation®Plus, PlayStation™Now, acclaimed PlayStation software titles from PlayStation Studios, and more.
+
+PlayStation also strives to create an inclusive environment that empowers employees and embraces diversity. We welcome and encourage everyone who has a passion and curiosity for innovation, technology, and play to explore our open positions and join our growing global team.
+
+The PlayStation brand falls under Sony Interactive Entertainment, a wholly-owned subsidiary of Sony Corporation.
+
+The Direct to Consumer (D2C) team are part of a vibrant organization that manage the digital store for PlayStation. D2C brings together staff from around the world, with a passion for engaging PlayStation gamers with relevant and entertaining content. This area of Sony Interactive Entertainment has seen significant growth in recent years to become a key revenue contributor and continues to evolve with the industry to build new business opportunities. As the central analytics organization within D2C, the Insights and Modelling team supports the commercial operations for D2C based on insights, modelling, and storytelling. The team empowers the business with robust data analytics to effectively meet and exceed their commercial objectives. We are looking for individuals who are motivated by working across a distributed team, working together at the forefront of digital content distribution.
+
+Reporting to the Manager, Data Science, the Data Scientist will be responsible for leading advanced analytics and modelling initiatives to support the strategic direction of the D2C team. The Data Scientist will focus on designing and executing statistical models to deliver insights and recommendations to expand business opportunities!
+
+The candidate is a hardworking and flexible teammate with a proven technical skillset, is an excellent communicator, and thrives in a fast-paced environment.
+
+What you'll be doing:
+Work cross-functionally to define problem statements, collect data, and apply statistics to sophisticated business problems
+Develop custom models; be a self-starter passionate about finding the best solution to the problem!
+Optimize models and algorithms to identify insights that are used to drive decision-making across the organization
+Use quantitative analysis and the presentation of data to see beyond the numbers and understand what drives our business
+Wrangle constantly evolving, large, and complex data on users and content using tools such as SQL and Python
+Routinely connect with partners and leadership on modelling projects; present in a cohesive, logical, and proficient way from the original business question to a strategy recommendation
+Collaborate closely with business teams within D2C to identify and evaluate opportunity areas for advanced analytics initiatives
+Collaborate with other Data Scientists and analytics teams in the wider organization
+
+What we're looking for:
+2+ years’ experience in a commercially focused analytical role, preferably in the digital retail and/or digital entertainment industry
+Bachelor’s Degree in a relevant technical or mathematical field
+Solid theoretical and practical understanding of Statistics (e.g. hypothesis testing, experimentation, causal inference, classification and regression)
+Proficiency in SQL and Python
+Strong verbal, written, and interpersonal communication skills with the ability to articulate ideas and present complex analyses to non-technical audiences
+
+Preferred Qualities:
+Ability to take ambiguous problems and tackle them in a data-supported way
+Proven track record of using data to drive business decisions with strong analytical skills including the ability to structure problems for analysis, analyze the data, and provide meaningful recommendations
+Can work collaboratively across functions
+Ability to self-manage and balance projects and priorities
+Ability to initiate and drive projects to completion with minimal guidance
+Familiarity with the AWS ecosystem and Docker
+Experience with visualization tools: Tableau, MicroStrategy
+As the role is global, international travel may be required as well as a flexible approach to working hours to support global business operations
+We’re now building an all-in-one sales platform for roofers to grow their business- from fast and accurate satellite roof measurements to project-winning proposals.
+
+
+Our mission is to ensure every family across North America has access to protect their home with an affordable roof.
+
+
+As the Data Analyst, you will work with various teams to turn data into information, insights, and actionable business decisions.
+
+
+What You’ll Do:
+
+Interpret data and analyze results and provide ongoing and expanding reporting;
+Implement, maintain, clean, and transform data sources into well organized data structures for fast, repeatable reporting and analysis;
+Cleaning and reorganizing data for analysis;
+Identify, analyze, and interpret trends or patterns in complex data sets;
+Presenting findings in an easy-to-understand way to inform data-driven decisions.
+
+What You’ll Bring:
+
+4+ years of proven working experience as a Data Analyst or Business Data Analyst;
+Technical expertise regarding data models, database design development, data mining and segmentation techniques;
+Strong knowledge of and experience with reporting packages (Metabase, Tableau, Looker, Business Objects, etc), databases (PostgreSQL, MySQL, SQL etc), programming (Python, Javascript, or ETL frameworks);
+Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy.
+
+Who You Are:
+
+A strong communicator with great presentation skills;
+Analytical with a demonstrated ability to utilize data to make informed decisions;
+Highly organized and able to prioritize and juggle multiple projects at once;
+You are a critical thinker who doesn’t settle for the status quo;
+You are obsessed with customer experience.

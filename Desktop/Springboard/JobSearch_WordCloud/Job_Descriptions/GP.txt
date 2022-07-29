@@ -1,0 +1,41 @@
+Description
+
+We are seeking a Business Intelligence Specialist in our Analytics and Insights Group within the Strategic Sourcing and Procurement Organization (SS&P). This position is located in our Atlanta, GA Headquarters.
+
+
+The overall Analytics and Insights Group is responsible for supporting the current and developing needs of Sourcing and Procurement Organization by developing data visualizations, intelligent process automation solutions, custom web applications, geospatial analytics and data science applications to turn raw data into actionable insights. The Analytics and Insights Group operates as an analytics COE within the organization working between our business customers and our IT partners to deliver new insights. The Business Intelligence Specialist will be responsible for supporting the strategic design, development and maintenance of business intelligence applications. The candidate will serve as a BI subject matter expertise for other Analytics and Insights members and business customers.
+
+
+The ideal candidate is a skilled leader with experience in working with large data sets in a variety of enterprise business intelligence applications including Qlik Sense and Tableau with both a technical and business functional skill set.
+
+
+******Open to the role being remote except in the following states: Connecticut, Nevada, Rhode Island, or Colorado****
+
+
+What You Will Do In Your Role
+
+Acts as the day-to-day, business owner of our existing business intelligence applications built on platforms such as Qlik Sense and Tableau.
+Identify and develop innovative tools for enhanced analysis or data presentation to improve decision making and performance within the organization.
+Responsible for working with all levels throughout the organization in order to gather and document the organizational BI needs.
+Responsible for translating high-level and detailed business requirements into concrete BI solutions that address all facets of the organizational business intelligence needs.
+Responsible for delivering self-service tools and training to maximize organizational self-service and self-sufficiency.
+Understands business needs and translates them into business and functional requirements. Works alongside IT support to translate functional requirements into technical designs when required.
+Develops and maintains detailed documentation of the BI solutions to ensure effective development, maintenance and support.
+Proactively communicates new and innovative ideas, solutions, etc. to help advance the organization. Educates and trains team members on new technologies and BI trends.
+Create adhoc queries to provide information requested by business users as needed.
+Demonstrate the skills and knowledge to establish and manage timelines, project priorities and handle multiple/concurrent projects. Maintain a sense of accountability and responsibility.
+Demonstrates high degree of professionalism in communication, attitude and teamwork with customers, peers and management.
+
+The Experience You Will Bring
+
+Requirements
+
+Experience utilizing SQL to navigate large enterprise data stores.
+Experience developing in business intelligence tools such as Tableau, Power BI, Qlik Sense
+
+What Will Put You Ahead
+
+Bachelor's degree in Computer Science, Information Systems, Data Analytics or Statistical area.
+At least 2 years of experience utilizing SQL to navigate large enterprise data stores.
+At least 2 years of experience developing in business intelligence tools such as Tableau, Power BI, Qlik Sense.
+Experience in intelligent automation solutions, custom web applications and advanced analytics applications
